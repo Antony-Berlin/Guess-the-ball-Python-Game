@@ -9,9 +9,9 @@ import os
 #    os.system("cls")
 #else:
 #    os.system("clear")
-try:
-    startAnimation.starting_animation()
 
+    startAnimation.starting_animation()
+try:
     sys.stdout.write(title.title())
 
     ball_Box = random.randint(1,3)
